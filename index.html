@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piedra Papel o Tijera</title>
+</head>
+<body>
+    <select onchange="jugar()" name="" id="id_yo">
+        <option value="piedra">Piedra</option>
+        <option value="papel">Papel</option>
+        <option value="tijera">Tijera</option>
+    </select>
+    <h1>Persona: <span id='person'></span> vs  PC: <span id="pc"></span> </h1>
+    <h3 id="result"></h3>
+</body>
+<script>
+    
+    function jugar() {
+        valor = document.getElementById('id_yo').value;
+        var options = ['piedra', 'papel', 'tijera'];
+        var playPc = options[Math.floor(Math.random() * options.length)];
+        document.getElementById('person').textContent = valor
+        document.getElementById('pc').textContent = playPc
+        if (valor === playPc) {
+            
+            document.getElementById('result').textContent = 'Empate'
+            console.log('empate')
+
+        } else if ((valor === 'piedra' && playPc === 'tijera') || (valor === 'papel' && playPc === 'piedra') || (valor === 'tijera' && playPc === 'papel')) {
+            
+            document.getElementById('result').textContent = 'Ganastes'
+            console.log('ganastes')
+        } else {
+            document.getElementById('result').textContent = 'Perdistes'
+            console.log('perdistes')
+        }
+
+    }
+
+</script>
+
+</html>

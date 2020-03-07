@@ -1,0 +1,49 @@
+¿Cómo se le conoce a la siguiente sentencia? Nombre = “Diego”
+R=Expresar una variable.
+R2 =  Inicializar una variable.
+
+¿Qué podemos esperar al mandar llamar el método .pop()?
+R=[Borrar el último elemento de mi array.]
+
+¿Cómo se le conoce a la siguiente sentencia? - var nombre;
+R=Inicializar una variable.
+R2 = Declarar una variable.
+
+¿Qué resultado podría esperar de ésta validación? 1 = “1”
+R=1
+R2 = Syntax Error
+
+¿Qué es el hoisting en Javascript?
+R=[Es cuando las declaraciones de variables y funciones se procesan antes de ejecutar cualquier código.]
+
+¿Qué método mandaríamos llamar para saber el index de un elemento de mi array?
+R=[indexOf()]
+
+¿Es correcta la siguiente sentencia ? switch (false) { case false: console.log("Soy falso :( ") case true: console.log("Soy verdadero!") }
+R=[No]
+
+¿Cómo se le llama al siguiente ejemplo de funciones? var myFucntion = function() { }
+R= Funcion declarativa
+R2 = Inicializar una función. 
+
+¿Qué es un array?
+R=[Es una estructura de datos de tipo objeto.]
+
+¿Por qué decimos que JavaScript es un lenguaje dinámico?
+R= [Porque es un lenguaje que corre en tiempo de ejecución.]
+
+¿Cómo se le llama al siguiente ejemplo de funciones? Function myfunction() { }
+R= Funcion expresiva
+R2 = Función declarativa.
+
+¿Qué resultado podría esperar de ésta validación? 4 == “4”
+R= [TRue]
+
+¿Qué resultado podría esperar de ésta validación? 6 === “6”
+R= [False]
+
+¿Qué significa Coerción en JS?
+R=[Es el proceso de convertir el valor de un tipo a otro.]
+
+¿Qué es una variable?
+R=[Es la representación de un espacio en memoria.]
